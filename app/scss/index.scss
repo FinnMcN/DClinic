@@ -1156,11 +1156,10 @@ header {
     &__container {
         @media screen and (max-width: 480px) {
             padding: 0;
-        }
-
-        > * {
-            &:not(.centers__select, .centers__slider) {
-                padding: 0 20px;
+            > * {
+                &:not(.centers__select, .centers__slider) {
+                    padding: 0 20px;
+                }
             }
         }
     }
