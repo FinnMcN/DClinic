@@ -1,0 +1,1928 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/index.min.css" />
+        <title>Document</title>
+
+        <!-- style tag is neccecery to prevent animation when page is refreshed in chrome -->
+        <style>
+            .page-numbers .number-item {
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+                color: #828282;
+                border-color: #bdbdbd;
+            }
+
+            .page-numbers .number-item + .number-item {
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="overlay"></div>
+            <header>
+                <div class="header__info">
+                    <div class="header__info-container container">
+                        <div class="header-logo__block logo__block">
+                            <div class="header-logo__block-img logo__block-img">
+                                <img src="./img/logo.svg" alt="" />
+                            </div>
+                            <div class="header-logo__block-title logo__block-title">
+                                Всероссийский фонд помощи<br />алко- и наркозависимым
+                            </div>
+                        </div>
+
+                        <div class="header-city__block city__block">
+                            <div class="header-city__block-desc city__block-desc">Ваш город:</div>
+                            <div class="header-city__block-select city__block-select">
+                                <select name="" id="" aria-placeholder="Выберите ваш город">
+                                    <option value="">г. Нижний Новгород</option>
+                                    <option value="">г. Казань</option>
+                                    <option value="">г. Пермь</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="header-phone__block phone__block">
+                            <div class="header-phone__block-number phone__block-number">
+                                8 (800) 200-99-32
+                            </div>
+                            <div class="header-phone__block-desc phone__block-desc">
+                                Бесплатный звонок по РФ
+                            </div>
+                        </div>
+                        <div class="header__burger">
+                            <p>Меню</p>
+                            <div class="burger__menu">
+                                <span class="burger__line"></span>
+                                <span class="burger__line"></span>
+                                <span class="burger__line"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__menu">
+                    <div class="header__menu-container container">
+                        <nav class="header__nav">
+                            <ul class="list__items">
+                                <li class="header__menu-item">
+                                    <a class="header__menu-item--link" href="#about">О нас</a>
+                                </li>
+                                <li class="header__menu-item">
+                                    <a class="header__menu-item--link" href="#centers"
+                                        >Наши центры</a
+                                    >
+                                </li>
+                                <li class="header__menu-item">
+                                    <a class="header__menu-item--link" href="#reviews">Отзывы</a>
+                                </li>
+                                <li class="header__menu-item">
+                                    <a class="header__menu-item--link" href="#services"
+                                        >Услуги и цены</a
+                                    >
+                                </li>
+                                <li class="header__menu-item">
+                                    <a class="header__menu-item--link" href="#centers"
+                                        >Фото центра</a
+                                    >
+                                </li>
+                                <li class="header__menu-item">
+                                    <a class="header__menu-item--link" href="#certificates"
+                                        >Сертификаты</a
+                                    >
+                                </li>
+                                <li class="header__menu-item">
+                                    <a class="header__menu-item--link" href="#contacts">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="header__main">
+                    <div class="header__images">
+                        <img src="./img/Forum_Header.png" alt="" />
+
+                        <img src="./img/img_header1.png" alt="" />
+                        <img src="./img/img_header2.png" alt="" />
+                        <img src="./img/img_header3.png" alt="" />
+                    </div>
+
+                    <div class="header__main-container container">
+                        <div class="header__main-right">
+                            <p>Профессионально возвращаем к полноценной жизни</p>
+                            <div class="header__main-title title">
+                                Лечение и реабилитация<br />
+                                при алкоголизме<br />
+                                и наркозависимости
+                            </div>
+                            <div class="header__main-price price">от 1290 руб./сут.</div>
+                            <ul class="header__main-right--list">
+                                <li class="header__main-right--item">
+                                    Анонимность и конфиденциальность
+                                </li>
+                                <li class="header__main-right--item">
+                                    58 центров в 45 городах России и за рубежом
+                                </li>
+                                <li class="header__main-right--item">
+                                    Более 4000 благодарных пациентов и их семей
+                                </li>
+                                <li class="header__main-right--item">
+                                    Гарантия 3 года! Бесплатный курс лечения в случае срыва
+                                </li>
+                                <li class="header__main-right--item">
+                                    Бесплатные группы обучения для родственников
+                                </li>
+                            </ul>
+
+                            <button class="header__main-def-btn def-btn">Консультация врача</button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="staff" id="about">
+                <div class="staff-container container">
+                    <div class="staff__left">
+                        <div class="staff-title title">
+                            C 1996 года успешно помогаем зависимым начать новую жизнь
+                        </div>
+                        <div class="staff-slogan">
+                            Вместо тысячи слов, просто<br />
+                            посмотрите прото-ролик о нас
+                        </div>
+                        <div class="staff-text">
+                            В штате «НАН» работают 38 психиатров-наркологов, 45 аддиктологов, 120
+                            психологов и других специалистов, отобранных в жестких условиях. В
+                            составе фонда – лучшие реабилитационные центры, которые прошли
+                            сертификацию ГОСТ-54990 и вошли в реестр центров России. Имеем 2
+                            зарубежных преиум-филиала в Израиле, Таиланде и 58 – в нашей стране.
+                        </div>
+                        <div class="staff__stats">
+                            <div class="staff__stats-column">
+                                <div class="staff__stats-block">
+                                    <div class="staff__stats-title">4378</div>
+                                    <div class="staff__stats-about">
+                                        человек прошли полный курс реабилитации
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="staff__stats-column">
+                                <div class="staff__stats-block">
+                                    <div class="staff__stats-title">92%</div>
+                                    <div class="staff__stats-about">
+                                        Эффективность применяемых методик
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="staff__stats-column">
+                                <div class="staff__stats-block">
+                                    <div class="staff__stats-title">15 минут</div>
+                                    <div class="staff__stats-about">
+                                        Экстренный выезд нарколога по адресу
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="staff__slider">
+                    <span class="play"></span>
+                    <span class="staff__slider-play"></span>
+                    <div class="staff__slider-item">
+                        <img src="./img/staff_img.jpg" alt="" />
+                    </div>
+
+                    <div class="staff__switching switching">
+                        <button class="arrow-prev">Назад</button>
+                        <div class="page-numbers">
+                            <a href="#" class="number-item">1</a>
+                            <a href="#" class="number-item">2</a>
+                            <a href="#" class="number-item">3</a>
+                            <a href="#" class="number-item">4</a>
+                            <a href="#" class="number-item">5</a>
+                            <a href="#" class="number-item">...</a>
+                            <a href="#" class="number-item">12</a>
+                        </div>
+                        <button class="arrow-next">Далее</button>
+                    </div>
+                </div>
+            </section>
+            <section class="rehabilitation">
+                <div class="container">
+                    <div class="rehabilitation-title title">
+                        Реабилитация — больше чем помощь от «тяги»
+                    </div>
+                    <div class="rehabilitation__header">
+                        <div class="rehabilitation-left">
+                            <div class="rehabilitation-slogan">
+                                Цель — избавить человека от психологической<br />зависимости,
+                                научить справляться с тягой<br />и не поддаваться соблазну.
+                            </div>
+
+                            <div class="rehabilitation-text">
+                                Мы прививаем духовные ценности (ранее утерянные). Человек <br />во
+                                время употребления утрачивает коммуникативные навыки общения.
+                                <br />Мы учим взаимодействовать с людьми, возращиваем в человеке
+                                личность,<br />
+                                которая по выходу из реабилитационного центра ставит перед собой
+                                цели,<br />
+                                возвращается в колектив, находит работу, строит семью.
+                            </div>
+                        </div>
+
+                        <div class="rehabilitation-image">
+                            <img src="./img/rehabilitation_img.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="rehabilitation__footer">
+                        <div class="rehabilitation__footer-column">
+                            <div class="rehabilitation__footer-item">
+                                <div class="rehabilitation__footer-item--top">
+                                    <div class="rehabilitation__footer-item--img">
+                                        <img src="./img/rehabilitation_footer1.jpg" alt="" />
+                                    </div>
+                                    <div class="rehabilitation__footer-item--title">
+                                        Мотивация <br />без насилия
+                                    </div>
+                                </div>
+
+                                <div class="rehabilitation__footer-item--text">
+                                    Используем собственный подход избегая применение физического или
+                                    морального насилия.
+                                    <b>Убедим зависимого начать лечение</b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rehabilitation__footer-column">
+                            <div class="rehabilitation__footer-item">
+                                <div class="rehabilitation__footer-item--top">
+                                    <div class="rehabilitation__footer-item--img">
+                                        <img src="./img/rehabilitation_footer2.jpg" alt="" />
+                                    </div>
+                                    <div class="rehabilitation__footer-item--title">
+                                        Пожизненная<br />
+                                        поддержка
+                                    </div>
+                                </div>
+
+                                <div class="rehabilitation__footer-item--text">
+                                    После лечения мы не оставляем пациентов — проводим
+                                    профориентацию, помогаем трудоустроится и решить возможные
+                                    юридические проблемы
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rehabilitation__footer-column">
+                            <div class="rehabilitation__footer-item">
+                                <div class="rehabilitation__footer-item--top">
+                                    <div class="rehabilitation__footer-item--img">
+                                        <img src="./img/rehabilitation_footer3.jpg" alt="" />
+                                    </div>
+                                    <div class="rehabilitation__footer-item--title">
+                                        Любые <br />пациенты
+                                    </div>
+                                </div>
+
+                                <div class="rehabilitation__footer-item--text">
+                                    Благодаря опыту наших специалистов мы берёмся даже за самые
+                                    сложныеслучаи и
+                                    <b> достигаем положительного результата </b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rehabilitation-footer--img">
+                        <img src="./img/rehabilitation_tablet.png" alt="" />
+                    </div>
+                </div>
+            </section>
+            <section class="consultation">
+                <div class="consultation-container container">
+                    <div class="consultation__wrapper">
+                        <div class="consultation__doctor">
+                            <div class="consultation__doctor-img">
+                                <img src="./img/consultation_doctor.jpg" alt="" />
+                            </div>
+                            <div class="consultation__doctor-footer">
+                                <div class="consultation__doctor-name">
+                                    Казанцев Алексей Владимирович
+                                </div>
+                                <div class="consultation__doctor-about">
+                                    Главный врач наркологического фонда «НАН»
+                                </div>
+                            </div>
+                        </div>
+                        <div class="consultation__get">
+                            <div class="consultation__about">
+                                Деятельность благотворитльного фонда «НАН» нацелена на РЕЗУЛЬТАТ —
+                                не только симптоматически провести детоксикацию, но и вернуть
+                                человека через реабилитационные центры к полноценной жизни,
+                                постоянной и стойкой ремиссии!
+                            </div>
+                            <div class="consultation__get-footer">
+                                <div class="consultation__get-slogan">Правило №1 — не молчите!</div>
+                                <div class="consultation__get-field">
+                                    <div class="consultation__get-field--title">
+                                        Получите консультацию специалиста
+                                    </div>
+                                    <div class="consultation__get-field--about">
+                                        Звоните прямо сейчас по номеру
+                                        <b>8 (800) 200 99 32</b>, <br />или оставьте заявку, чтобы
+                                        получить анонимную бесплатную экспертную консультацию
+                                    </div>
+                                    <div class="consultation__get-field--form">
+                                        <input
+                                            class="consultation__get-field--input"
+                                            placeholder="Ваш номер телефона"
+                                            type="text"
+                                        />
+                                        <button class="consiltation-def-btn def-btn">
+                                            Получить консультацию специалиста
+                                        </button>
+                                    </div>
+                                    <div class="consultation__get-field--consent">
+                                        <input
+                                            class="consultation__get-field--checkbox"
+                                            type="checkbox"
+                                            id="check"
+                                            name="check"
+                                        />
+                                        <label for="check"></label>
+                                        <div class="consultation__get-field--pers_data">
+                                            Принимаю согласие на обработку
+                                            <a href="#">персональных данных </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="clinic">
+                <div class="container">
+                    <div class="clinic__top">
+                        <div class="clinic__about">
+                            <div class="clinic__about-title title">Наркологическая клиника</div>
+                            <div class="clinic__about-desc">
+                                Первый этап чистки организма проводится в наркологиской клинике под
+                                присмотром врачей. Берутся анализы, назначается медикаментозная
+                                терапия
+                            </div>
+                            <button class="clinic-def-btn def-btn">Узнать больше о клинике</button>
+                        </div>
+                        <div class="clinic__slider">
+                            <div class="clinic__slider-item">
+                                <img src="./img/clinic_img.jpg" alt="" />
+                            </div>
+                            <div class="clinic-switching switching">
+                                <button class="arrow-prev">Назад</button>
+                                <div class="page-numbers">
+                                    <a href="#" class="number-item">1</a>
+                                    <a href="#" class="number-item">2</a>
+                                    <a href="#" class="number-item">3</a>
+                                    <a href="#" class="number-item">4</a>
+                                    <a href="#" class="number-item">5</a>
+                                    <a href="#" class="number-item">...</a>
+                                    <a href="#" class="number-item">12</a>
+                                </div>
+                                <button class="arrow-next">Далее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clinic__footer">
+                        <div class="clinic__footer-title title">В клинике проводится</div>
+                        <div class="clinic__info-cards info-cards">
+                            <div class="info-card--column">
+                                <div class="info-card">
+                                    <div class="info-card--left">
+                                        <div class="info-card--number">1</div>
+                                        <div>
+                                            <div class="info-card--title">Детоксикация</div>
+                                            <div class="info-card--term">3-7 дней</div>
+                                        </div>
+                                    </div>
+                                    <div class="info-card--desc">
+                                        Очищение организма <br />от наркотиков <br />и устранение
+                                        абстиненции (ломки)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-card--column">
+                                <div class="info-card">
+                                    <div class="info-card--left">
+                                        <div class="info-card--number">2</div>
+                                        <div>
+                                            <div class="info-card--title">
+                                                Медикаметозная терапия
+                                            </div>
+                                            <div class="info-card--term">около 1 месяца</div>
+                                        </div>
+                                    </div>
+                                    <div class="info-card--desc">
+                                        Восстановление организма и лечение имеющихся заболеваний
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clinic__lm">
+                        <button class="clinic__lm-def-btn def-btn">Узнать больше о гарантии</button>
+                        <div class="clinic__lm-call">
+                            <p class="clinic__lm-text">Звоните нам, чтоб узнать подробнее</p>
+                            <div class="clinic__lm-number">8 (800) 200-99-32</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="centers" id="centers">
+                <div class="centers__container container">
+                    <div class="centers__header">
+                        <div class="centers__header-text">
+                            <div class="centers-title title">Наши реабилитационные центры</div>
+                            <div class="centers__header-desc">
+                                После медикаментозных процедур пациент попадает в реабилитационный
+                                центр, где созданы все условия для дальнейшего выздоровления
+                            </div>
+                            <div class="centers__header-note">
+                                <b>Примечание.</b> Не во всех городах находятся центры всех классов,
+                                но в любом мы достигаем максимального результата.
+                            </div>
+                        </div>
+                        <div class="centers__header-about">
+                            <div class="centers__header-number">
+                                <span>58</span><br />центров в РФ
+                            </div>
+                            <div class="centers__header-premium">
+                                <span>Премиум</span> центры в Израиле, Тайланде
+                            </div>
+                        </div>
+                    </div>
+                    <div class="centers__select">
+                        <div class="centers__select-wrapper">
+                            <div class="centers-city__block city__block">
+                                <div class="centers-city__block-desc city__block-desc">
+                                    Ваш город:
+                                </div>
+                                <div class="centers-city__block-select city__block-select">
+                                    <select name="" id="" aria-placeholder="Выберите ваш город">
+                                        <option value="">г. Нижний Новгород</option>
+                                        <option value="">г. Казань</option>
+                                        <option value="">г. Пермь</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="centers__select-wrapper">
+                            <div class="centers__select-checkbox">
+                                <div class="centers__select-item">
+                                    <input type="checkbox" id="economy" /><label
+                                        class="centers__select-lb_checkbox"
+                                        for="economy"
+                                    >
+                                    </label>
+                                    <p>Эконом</p>
+                                </div>
+                                <div class="centers__select-item">
+                                    <input type="checkbox" id="standart" />
+                                    <label class="centers__select-lb_checkbox" for="standart">
+                                    </label>
+                                    <p>Стандарт</p>
+                                </div>
+                                <div class="centers__select-item">
+                                    <input type="checkbox" id="comfort" /><label
+                                        class="centers__select-lb_checkbox"
+                                        for="comfort"
+                                    >
+                                    </label>
+                                    <p>Комфорт</p>
+                                </div>
+                                <div class="centers__select-item">
+                                    <input type="checkbox" id="premium" /><label
+                                        class="centers__select-lb_checkbox"
+                                        for="premium"
+                                    >
+                                    </label>
+                                    <p>Премиум</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="centers__slider">
+                        <div class="main-slider">
+                            <div class="centers__slider-big">
+                                <div class="centers__slider-big--item">
+                                    <img src="./img/centers_slider1.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-big--item">
+                                    <img src="./img/centers_slider2.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-big--item">
+                                    <img src="./img/centers_slider3.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-big--item">
+                                    <img src="./img/centers_slider4.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-big--item">
+                                    <img src="./img/centers_slider5.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-big--item">
+                                    <img src="./img/centers_slider6.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-big--item">
+                                    <img src="./img/centers_slider1.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-big--item">
+                                    <img src="./img/centers_slider2.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-big--item">
+                                    <img src="./img/centers_slider3.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-big--item">
+                                    <img src="./img/centers_slider4.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="centers__slider-tape">
+                                <div class="centers__slider-item">
+                                    <img src="./img/centers_slider1.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-item">
+                                    <img src="./img/centers_slider2.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-item">
+                                    <img src="./img/centers_slider3.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-item">
+                                    <img src="./img/centers_slider4.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-item">
+                                    <img src="./img/centers_slider5.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-item">
+                                    <img src="./img/centers_slider6.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-item">
+                                    <img src="./img/centers_slider1.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-item">
+                                    <img src="./img/centers_slider2.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-item">
+                                    <img src="./img/centers_slider3.jpg" alt="" />
+                                </div>
+                                <div class="centers__slider-item">
+                                    <img src="./img/centers_slider4.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="centers__slider-about">
+                            <div class="centers__slider-title">
+                                <div class="centers__slider-name">РЦ “Куменово”</div>
+                                <div class="price">от 1290 руб./сут.</div>
+                            </div>
+                            <div class="centers__slider-about--items">
+                                <div class="centers__slider-about--item">
+                                    <span></span>
+                                    <p><b>Локация:</b> пос. Куменово, Ивановская обл.</p>
+                                </div>
+                                <div class="centers__slider-about--item">
+                                    <span></span>
+                                    <p><b>Класс:</b> Стандарт</p>
+                                </div>
+                                <div class="centers__slider-about--item">
+                                    <span></span>
+                                    <p><b>Вместимость:</b> до 20 чел.</p>
+                                </div>
+                                <div class="centers__slider-about--item">
+                                    <span></span>
+                                    <p>
+                                        <b>Территория:</b> живописная природа, бассейн, волейбольная
+                                        площадка, баня
+                                    </p>
+                                </div>
+                                <div class="centers__slider-about--item">
+                                    <span></span>
+                                    <p><b>Питание:</b> 3-разовое, сбалансированное</p>
+                                </div>
+                                <div class="centers__slider-about--item">
+                                    <span></span>
+                                    <p><b>Программа:</b> Авторская с элементами 12 шагов</p>
+                                </div>
+                            </div>
+                            <button class="centers-def-btn def-btn">
+                                Узнать подробнее о центре
+                            </button>
+                        </div>
+                    </div>
+                    <div class="centers__switching switching">
+                        <button class="arrow-prev">Назад</button>
+                        <div class="page-numbers">
+                            <a href="#" class="number-item">1</a>
+                            <a href="#" class="number-item">2</a>
+                            <a href="#" class="number-item">3</a>
+                            <a href="#" class="number-item">4</a>
+                            <a href="#" class="number-item">5</a>
+                            <a href="#" class="number-item">...</a>
+                            <a href="#" class="number-item">12</a>
+                        </div>
+                        <button class="arrow-next">Далее</button>
+                    </div>
+                    <div class="centers__footer">
+                        <div class="centers-title title">В центре пациент проходит</div>
+                        <div class="centers__info-cards info-cards">
+                            <div class="info-card--column">
+                                <div class="info-card">
+                                    <div class="centers__info-card--left info-card--left">
+                                        <div class="info-card--number">1</div>
+                                        <div>
+                                            <div class="info-card--title">
+                                                Индивидуальную <br />и групповую психотерапию
+                                            </div>
+                                            <div class="info-card--term">от 2 месяцев</div>
+                                        </div>
+                                    </div>
+                                    <div class="info-card--desc">
+                                        Устранение психической зависимости <br />к наркотикам
+                                        <br />или алкоголю
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-card--column">
+                                <div class="info-card">
+                                    <div class="centers__info-card--left info-card--left">
+                                        <div class="info-card--number">2</div>
+                                        <div>
+                                            <div class="info-card--title">Ресоциализацию</div>
+                                            <div class="info-card--term">1-2 месяца</div>
+                                        </div>
+                                    </div>
+                                    <div class="info-card--desc">
+                                        Социальная адаптация направленная на постепенное возвращение
+                                        к жизни в обществе
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="centers-title title">
+                            Основные задачи, достигаемые в ходе реабилитации
+                        </div>
+                        <div class="centers__footer-tasks">
+                            <div class="centers__footer-column">
+                                <div class="centers__footer-item">
+                                    <img src="./img/centers_refuse.svg" />
+                                    <div class="centers__footer-item--text">
+                                        <div class="centers__footer-item--title">Отказ</div>
+                                        <div class="centers__footer-item--desc">
+                                            Полный отказ от наркотиков и алкоголя, «зависимого»
+                                            мышления
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="centers__footer-column">
+                                <div class="centers__footer-item">
+                                    <img src="./img/centers_adapt.svg" />
+                                    <div class="centers__footer-item--text">
+                                        <div class="centers__footer-item--title">Адаптация</div>
+                                        <div class="centers__footer-item--desc">
+                                            Адаптация и формирование навыков здоровой жизни,
+                                            повышение её качества
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="centers__footer-column">
+                                <div class="centers__footer-item">
+                                    <img src="./img/centers_rel.svg" />
+                                    <div class="centers__footer-item--text">
+                                        <div class="centers__footer-item--title">Отношения</div>
+                                        <div class="centers__footer-item--desc">
+                                            Выстраивание продуктивных отношений, восстановление
+                                            коммуникативных навыков
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="result" id="reviews">
+                <div class="container">
+                    <div class="result-title title">Результаты наших пациентов</div>
+                    <div class="result-desc">
+                        Наглядный пример как изменились жизни наших пациентов после прохождения всей
+                        программы.
+                    </div>
+                    <div class="result__cards">
+                        <div class="result__column">
+                            <div class="result__item">
+                                <div class="img-container">
+                                    <img src="./img/result_card1.jpg" alt="" />
+                                </div>
+                                <div class="result__item-name">Ольга, 38 лет</div>
+                                <div class="result__item-text">
+                                    <div class="result__item-text--left">
+                                        <div class="result__item-exp">
+                                            <b>Наркозависимость:</b> 17 лет
+                                        </div>
+                                        <div class="result__item-tie">
+                                            <b>Не употребляет:</b> 4 года
+                                        </div>
+                                        <div class="result__item-course">
+                                            <b>Курс:</b> Прошла полный курс реабилитации и соц.
+                                            адаптацию
+                                        </div>
+                                    </div>
+                                    <div class="result__item-desc">
+                                        17 лет употребляла внутривенно. Дошла до такого отчаяния,
+                                        что не хотелось жить. Благодарна родителям за то, что
+                                        отправили меня в центр.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="result__column">
+                            <div class="result__item">
+                                <div class="img-container">
+                                    <img src="./img/result_card2.jpg" alt="" />
+                                </div>
+                                <div class="result__item-name">Ольга, 38 лет</div>
+                                <div class="result__item-text">
+                                    <div class="result__item-text--left">
+                                        <div class="result__item-exp">
+                                            <b>Наркозависимость:</b> 17 лет
+                                        </div>
+                                        <div class="result__item-tie">
+                                            <b>Не употребляет:</b> 4 года
+                                        </div>
+                                        <div class="result__item-course">
+                                            <b>Курс:</b> Прошла полный курс реабилитации и соц.
+                                            адаптацию
+                                        </div>
+                                    </div>
+                                    <div class="result__item-desc">
+                                        17 лет употребляла внутривенно. Дошла до такого отчаяния,
+                                        что не хотелось жить. Благодарна родителям за то, что
+                                        отправили меня в центр.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="switching">
+                        <button class="arrow-prev">Назад</button>
+                        <div class="page-numbers">
+                            <a href="#" class="number-item">1</a>
+                            <a href="#" class="number-item">2</a>
+                            <a href="#" class="number-item">3</a>
+                            <a href="#" class="number-item">4</a>
+                            <a href="#" class="number-item">5</a>
+                            <a href="#" class="number-item">...</a>
+                            <a href="#" class="number-item">12</a>
+                        </div>
+                        <button class="arrow-next">Далее</button>
+                    </div>
+                    <div class="result__relatives">
+                        <div class="result__relatives-slider">
+                            <div class="result__relatives-title title">
+                                Благодарные родственники
+                            </div>
+                            <div class="result__cards">
+                                <div class="result__column">
+                                    <div class="result__item">
+                                        <div class="img-container">
+                                            <img src="./img/result_rel1.jpg" alt="" />
+                                        </div>
+                                        <div class="result__item-text">
+                                            <div class="result__item-title">Наркомания</div>
+                                            <div class="result__item-desc">
+                                                Я увидела прежднего сына... доброго, умного,
+                                                рассудительного - человека, который захотел жить!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="result__column">
+                                    <div class="result__item">
+                                        <div class="img-container">
+                                            <img src="./img/result_rel2.jpg" alt="" />
+                                        </div>
+                                        <div class="result__item-text">
+                                            <div class="result__item-title">Алкоголизм</div>
+                                            <div class="result__item-desc">
+                                                Я приехала к нему через 2 месяца <br />и это был
+                                                совершенно другой человек, каким он был до
+                                                употребления.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="switching">
+                                <button class="arrow-prev">Назад</button>
+                                <div class="page-numbers">
+                                    <a href="#" class="number-item">1</a>
+                                    <a href="#" class="number-item">2</a>
+                                    <a href="#" class="number-item">3</a>
+                                    <a href="#" class="number-item">4</a>
+                                    <a href="#" class="number-item">5</a>
+                                    <a href="#" class="number-item">...</a>
+                                    <a href="#" class="number-item">12</a>
+                                </div>
+                                <button class="arrow-next">Далее</button>
+                            </div>
+                        </div>
+                        <div class="result-consultation__block consultation__block">
+                            <div class="consultation__block-content">
+                                <div class="consultation__block-title">
+                                    Начните дейстовать сейчас!
+                                </div>
+                                <div class="consultation__block-desc">
+                                    Не откладывайте на затра! Не допускайте ошибок! Каждый день в
+                                    активном употреблении может быть последним.
+                                </div>
+                                <p class="consultation__block-text">
+                                    Получите бесплатную консультацию
+                                </p>
+                                <button class="def-btn">Заказать консультацию</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result__guarantee">
+                        <div class="result__guarantee-content">
+                            <div class="result__guarantee-left">
+                                <div class="result__guarantee-img">
+                                    <img src="./img/guarantee.png" alt="" />
+                                </div>
+                                <p>
+                                    <b>Гарантийный сертификат</b> — надёжная страховка в случае
+                                    срыва
+                                    <b>на 3 года!</b>
+                                </p>
+                            </div>
+
+                            <div class="result__guarantee-text">
+                                <div class="result__guarantee-title title">
+                                    Гарантия на курс реабилитации
+                                </div>
+                                <div class="result__guarantee-desc">
+                                    В завершение курса реабилитации, каждому выпускнику выдается
+                                    Сертификат. <br />В терапевтическом смысле, он снижает уровень
+                                    тревожности для родственников <br />и самих резидентов, у
+                                    которых есть страх к повторному срыву. Таких резидентов
+                                    <b>менее 8%</b>. Семьи зависимого, которые воспользуются
+                                    сертификатом, так же могут посещать программы <br />для
+                                    родственников. Мы гарантируем конфиденциальность использования,
+                                    как и на первичной реабилитации.
+                                </div>
+                                <div class="result__guarantee-footer">
+                                    <div class="result__guarantee-promotion">
+                                        <p>
+                                            Если человек пройдёт полный курс реабилитации (от 6
+                                            мес.), будет выполнять <br />все рекомендации и сорвётся
+                                            —
+                                        </p>
+                                        <div class="result__guarantee-promotion--title title">
+                                            Проведём корректирующий месячный курс за наш счёт!
+                                        </div>
+                                    </div>
+                                    <div class="result__guarantee-call__block">
+                                        <button class="def-btn">Узнать больше о гарантии</button>
+                                        <div class="result__guarantee-call">
+                                            <p>Звоните нам, чтоб узнать подробнее</p>
+                                            <div class="result__guarantee-call--number">
+                                                8 (800) 200-99-32
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="groups">
+                <div class="container">
+                    <div class="groups__content">
+                        <div class="groups__content-text">
+                            <div class="groups-title title">
+                                Бесплатные группы для родственников
+                            </div>
+                            <div class="groups-about">
+                                От алкогольной, наркотической зависимости страдает не только
+                                больной, но родственники, поэтому они тоже нуждаются в поддержке.
+                                Лечебный процесс – длительный, сложный и требует взаимодействия с
+                                близкими. Каждую неделю в центре проходят занятия с участием
+                                Прохорова Антона Борисовича – руководителя отдела по работе с
+                                родственниками, ведущего психолога, семейного консультанта,
+                                аддиктолога.
+                            </div>
+                            <div class="groups-list__block">
+                                <div class="groups-list--title">В группе вы узнаете:</div>
+                                <ul class="groups-list">
+                                    <li class="groups-list--item">
+                                        Что такое созависимость и как она развивается;
+                                    </li>
+                                    <li class="groups-list--item">
+                                        Почему алкоголизм, наркомания считаются семейным
+                                        заболеванием;
+                                    </li>
+                                    <li class="groups-list--item">
+                                        Как жить своей жизнью и подавить чувство вины;
+                                    </li>
+                                    <li class="groups-list--item">
+                                        Общую информацию о зависимости, ее влиянии на человека,
+                                        методах лечения;
+                                    </li>
+                                    <li class="groups-list--item">Реабилитационные программы;</li>
+                                    <li class="groups-list--item">Успеваемость реабилитанта.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="groups__slider-block">
+                            <div class="groups__slider">
+                                <div class="groups__slider-item">
+                                    <img src="./img/groups_slider1.jpg" alt="" />
+                                </div>
+                                <div class="switching">
+                                    <button class="arrow-prev">Назад</button>
+                                    <div class="page-numbers">
+                                        <a href="#" class="number-item">1</a>
+                                        <a href="#" class="number-item">2</a>
+                                        <a href="#" class="number-item">3</a>
+                                        <a href="#" class="number-item">4</a>
+                                        <a href="#" class="number-item">5</a>
+                                        <a href="#" class="number-item">...</a>
+                                        <a href="#" class="number-item">12</a>
+                                    </div>
+                                    <button class="arrow-next">Далее</button>
+                                </div>
+                            </div>
+                            <button class="groups-def-btn def-btn">
+                                Узнать подробнее о группах
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="steps">
+                <div class="container">
+                    <div class="steps__header">
+                        <div class="steps__header-title title">
+                            Только правильный подход к лечению может гарантировать стойкую трезвость
+                        </div>
+                        <div class="steps__header-right">
+                            <span>25 лет</span>
+                            <p>
+                                практического опыта доказали, что только прохождение всех этапов
+                                лечения до конца может гарантировать результат
+                            </p>
+                        </div>
+                    </div>
+                    <div class="steps__cards">
+                        <div class="steps__card">
+                            <div class="steps__card-content">
+                                <div class="steps__card-header">
+                                    <div class="steps__card-number">1</div>
+                                    <div class="steps__card-name">Первичная консультация</div>
+                                </div>
+                                <div class="steps__card-text">
+                                    Специалист центра отвечает на все ваши вопросы. Собираем анамнез
+                                    пациента и определяем степень зависимости. Корректируем
+                                    дальнейшие действия.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="steps__card">
+                            <div class="steps__card-content">
+                                <div class="steps__card-header">
+                                    <div class="steps__card-number">2</div>
+                                    <div class="steps__card-name">Мотивация</div>
+                                </div>
+                                <div class="steps__card-text">
+                                    95% зависимых отрицают свою проблему. Не вините близкого, так
+                                    работает его (её) зависимость. Мы знаем, как найти подход к
+                                    человеку в отрицании.
+                                    <b>Эффективность беседы специалиста 98%.</b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="steps__card">
+                            <div class="steps__card-content">
+                                <div class="steps__card-header">
+                                    <div class="steps__card-number">3</div>
+                                    <div class="steps__card-name">
+                                        Диагностика <br />и детоксикация
+                                    </div>
+                                </div>
+                                <div class="steps__card-text">
+                                    Диагностика работы всех органов и систем. Плюс обследование
+                                    пациента по наркологической части. При необходимости после
+                                    обследования назначается курс детоксикации.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-content">
+                                <div class="steps__card-header">
+                                    <div class="steps__card-number">4</div>
+                                    <div class="steps__card-name">Реабилитация</div>
+                                </div>
+                                <div class="steps__card-text">
+                                    Условие для выздоровления — это, прежде всего, изоляция от
+                                    обстановки, которая привела к употреблению. Цель этапа —
+                                    <b>жизнь без зависимости</b> с восстановлением здоровья и
+                                    социальными, адаптивными навыками.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-content">
+                                <div class="steps__card-header">
+                                    <div class="steps__card-number">5</div>
+                                    <div class="steps__card-name">Социальная адаптация</div>
+                                </div>
+                                <div class="steps__card-text">
+                                    Требуется участие близких. Резиденту центра предстоит войти в
+                                    новую жизнь. Мы проводим комплексную работу, организуем
+                                    психологические тренинги, Помогаем изменить круг общения,
+                                    профессию и устроиться на работу.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="steps__card">
+                            <div class="steps__card-content">
+                                <div class="steps__card-header">
+                                    <div class="steps__card-number">6</div>
+                                    <div class="steps__card-name">
+                                        Итог: <br />Устойчивая трезвость
+                                    </div>
+                                </div>
+                                <div class="steps__card-text">
+                                    <b>Важно!</b> Даже после окончания курса мы поддерживаем связь с
+                                    выпускниками и их родными, а наиболее успешных приглашаем в
+                                    качестве консультантов и волонтёров в благотворительный фонд
+                                    «НАН».
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="steps__footer-title">
+                        Длительность эфективного курса реабилитации
+                    </div>
+                    <div class="steps__footer-course">
+                        <div class="steps__footer-months">
+                            <span>3—6</span>
+                            <p>месяцев</p>
+                        </div>
+                        <div class="steps__footer-text">
+                            Длительность прохождения курса реабилитации зависит от многих факторов.
+                            В первую очередь, это зависит от личной мотивации. В зависимости от
+                            степени сопротивления процессу реабилитации, для каждого резидента
+                            подбирается индивидуальная реабилитационная программа. В целом курс
+                            расчитан на длительность от 6 до 10 месяцев.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="services" id="services">
+                <div class="container">
+                    <div class="services__header">
+                        <div class="services-title title">Услуги и цены</div>
+                        <div class="services-note">
+                            Цены в других филиах могут отличаться. Узнать точную стоимость услуг Вы
+                            можете по телефону <b>8 (800) 200-99-32</b>
+                        </div>
+                    </div>
+                    <div class="services__cards">
+                        <div class="services__card">
+                            <div class="services__card-title">
+                                Медикаментозное лечение алкоголизма
+                            </div>
+                            <div class="services__card-inner">
+                                <div class="services__card-menu">
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Выведение из запоя на дому
+                                        </div>
+                                        <div class="services__card-price">от 3 990 руб.</div>
+                                    </div>
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Выведение из запоя в стационаре
+                                        </div>
+                                        <div class="services__card-price">от 3 250 руб.</div>
+                                    </div>
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Программа "Премиум детокс"
+                                        </div>
+                                        <div class="services__card-price">от 12 500 руб.</div>
+                                    </div>
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Выведение из запоя на дому + кодирование
+                                        </div>
+                                        <div class="services__card-price">от 9 300 руб.</div>
+                                    </div>
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Кодирование от алкоголизма (все виды)
+                                        </div>
+                                        <div class="services__card-price">от 2 990 руб.</div>
+                                    </div>
+                                </div>
+                                <div class="services__card-footer">
+                                    <div class="services__card-footer--left">
+                                        <p>Узнать точную стоимость</p>
+                                        <div class="services__card-number">8 (800) 200-99-32</div>
+                                    </div>
+                                    <button class="services-def-btn def-btn">
+                                        Получить консультацию
+                                    </button>
+                                </div>
+                                <div class="services__lm">
+                                    <button class="services__lm-def-btn def-btn">
+                                        Получить консультацию
+                                    </button>
+                                    <div class="services__lm-call">
+                                        <p class="services__lm-text">Узнать точную стоимость</p>
+                                        <div class="services__lm-number">8 (800) 200-99-32</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services__card">
+                            <div class="services__card-title">
+                                Медикаментозное лечение наркомании
+                            </div>
+                            <div class="services__card-inner">
+                                <div class="services__card-menu">
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">Снятие ломки на дому</div>
+                                        <div class="services__card-price">от 6 200 руб.</div>
+                                    </div>
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Снятие ломки в стационаре
+                                        </div>
+                                        <div class="services__card-price">от 5 400 руб.</div>
+                                    </div>
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Лечение в 3-х местной палате
+                                        </div>
+                                        <div class="services__card-price">от 5 900 руб.</div>
+                                    </div>
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Лечение в 2-х местной палате
+                                        </div>
+                                        <div class="services__card-price">от 7 500 руб.</div>
+                                    </div>
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            УБОД (Ультрабыстрая опиодиная детокскикация)
+                                        </div>
+                                        <div class="services__card-price">от 29 000 руб.</div>
+                                    </div>
+                                </div>
+                                <div class="services__card-footer">
+                                    <div class="services__card-footer--left">
+                                        <p>Узнать точную стоимость</p>
+                                        <div class="services__card-number">8 (800) 200-99-32</div>
+                                    </div>
+                                    <button class="services-def-btn def-btn">
+                                        Получить консультацию
+                                    </button>
+                                </div>
+                                <div class="services__lm">
+                                    <button class="services__lm-def-btn def-btn">
+                                        Получить консультацию
+                                    </button>
+                                    <div class="services__lm-call">
+                                        <p class="services__lm-text">Узнать точную стоимость</p>
+                                        <div class="services__lm-number">8 (800) 200-99-32</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services__card">
+                            <div class="services__card-title">Реабилитация при алкоголизме</div>
+                            <div class="services__card-inner">
+                                <div class="services__card-menu">
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Социальная реабилитация
+                                        </div>
+                                        <div class="services__card-price">от 990 руб./сут</div>
+                                    </div>
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Реабилитация по программе "Стандарт"
+                                        </div>
+                                        <div class="services__card-price">от 1 250 руб./сут.</div>
+                                    </div>
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Ускоренный курс "28 дней"
+                                        </div>
+                                        <div class="services__card-price">120 000 руб.</div>
+                                    </div>
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Реабилитация "Индивидуально"
+                                        </div>
+                                        <div class="services__card-price">от 2 190 руб./сут.</div>
+                                    </div>
+                                </div>
+                                <div class="services__card-footer">
+                                    <div class="services__card-footer--left">
+                                        <p>Узнать точную стоимость</p>
+                                        <div class="services__card-number">8 (800) 200-99-32</div>
+                                    </div>
+                                    <button class="services-def-btn def-btn">
+                                        Получить консультацию
+                                    </button>
+                                </div>
+                                <div class="services__lm">
+                                    <button class="services__lm-def-btn def-btn">
+                                        Получить консультацию
+                                    </button>
+                                    <div class="services__lm-call">
+                                        <p class="services__lm-text">Узнать точную стоимость</p>
+                                        <div class="services__lm-number">8 (800) 200-99-32</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services__card">
+                            <div class="services__card-title">
+                                Реабилитация при наркозависимости
+                            </div>
+                            <div class="services__card-inner">
+                                <div class="services__card-menu">
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Социальная реабилитация
+                                        </div>
+                                        <div class="services__card-price">от 990 руб./сут.</div>
+                                    </div>
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Реабилитация по программе "Стандарт"
+                                        </div>
+                                        <div class="services__card-price">от 1 250 руб./сут.</div>
+                                    </div>
+                                    <div class="services__card-item">
+                                        <div class="services__card-serv">
+                                            Реабилитация "Индивидуально"
+                                        </div>
+                                        <div class="services__card-price">от 2 190 руб./сут.</div>
+                                    </div>
+                                </div>
+                                <div class="services__card-footer">
+                                    <div class="services__card-footer--left">
+                                        <p>Узнать точную стоимость</p>
+                                        <div class="services__card-number">8 (800) 200-99-32</div>
+                                    </div>
+                                    <button class="services-def-btn def-btn">
+                                        Получить консультацию
+                                    </button>
+                                </div>
+                                <div class="services__lm">
+                                    <button class="services__lm-def-btn def-btn">
+                                        Получить консультацию
+                                    </button>
+                                    <div class="services__lm-call">
+                                        <p class="services__lm-text">Узнать точную стоимость</p>
+                                        <div class="services__lm-number">8 (800) 200-99-32</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__payment-title title">Варианты оплаты</div>
+                    <div class="services__payment-items">
+                        <div class="services__payment-column">
+                            <div class="services__payment-item">
+                                <div class="services__payment-header">
+                                    <img src="./img/clock.svg" alt="" />
+                                    <div class="services__payment-item--title">
+                                        Отсрочка платежа
+                                    </div>
+                                </div>
+                                <div class="services__payment-text">
+                                    Идём на встречу в любой сложной финансовой ситуации. Готовы
+                                    предоставить отсрочку платежа.
+                                </div>
+                                <div class="services__payment-footer">
+                                    <p>Узнать информацию по отсрочке</p>
+                                    <div class="services__payment-number">8 (800) 200-99-32</div>
+                                    <div class="services__payment-note">
+                                        Бесплатный звонок по РФ
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services__payment-column">
+                            <div class="services__payment-item">
+                                <div class="services__payment-header">
+                                    <img src="./img/calendar.svg" alt="" />
+                                    <div class="services__payment-item--title">
+                                        Рассрочка платежа
+                                    </div>
+                                </div>
+                                <div class="services__payment-text">
+                                    Гибкие условия оплаты обговариваем и закрепляем в договоре.
+                                    Наиболее часто применяется помесячная оплата.
+                                </div>
+                                <div class="services__payment-footer">
+                                    <div class="services__payment-footer--topay">
+                                        Принимаем к оплате
+                                    </div>
+                                    <img src="./img/bank_cards.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services__payment-column">
+                            <div class="services__payment-item">
+                                <div class="services__payment-header">
+                                    <img src="./img/piggy-bank.svg" alt="" />
+                                    <div class="services__payment-item--title">
+                                        Выгодное предложение
+                                    </div>
+                                </div>
+                                <div class="services__payment-discount">
+                                    <div class="services__payment-discount--perc">50%</div>
+                                    <div class="services__payment-discount--text">
+                                        Скидка на первый месяц реабилитации
+                                    </div>
+                                </div>
+                                <div class="services__payment-text">
+                                    При разовой оплате курса реабилитации от 6 месяцев
+                                </div>
+                                <button class="def-btn">Узнать подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="activity">
+                <div class="activity-title title">Из жизни наших центров</div>
+                <div class="activity__slider">
+                    <div class="activity__slider-item">
+                        <img src="./img/activity_slider1.jpg" alt="" />
+                    </div>
+                    <div class="activity__slider-item">
+                        <img src="./img/activity_slider1.jpg" alt="" />
+                    </div>
+                    <div class="activity__slider-item">
+                        <img src="./img/activity_slider1.jpg" alt="" />
+                    </div>
+                    <div class="activity__slider-item">
+                        <img src="./img/activity_slider1.jpg" alt="" />
+                    </div>
+                    <div class="activity__slider-item">
+                        <img src="./img/activity_slider1.jpg" alt="" />
+                    </div>
+                    <div class="activity__slider-item">
+                        <img src="./img/activity_slider1.jpg" alt="" />
+                    </div>
+                    <div class="activity__slider-item">
+                        <img src="./img/activity_slider1.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="activity__switching switching">
+                    <button class="arrow-prev">Назад</button>
+                    <div class="page-numbers">
+                        <a href="#" class="number-item">1</a>
+                        <a href="#" class="number-item">2</a>
+                        <a href="#" class="number-item">3</a>
+                        <a href="#" class="number-item">4</a>
+                        <a href="#" class="number-item">5</a>
+                        <a href="#" class="number-item">...</a>
+                        <a href="#" class="number-item">12</a>
+                    </div>
+                    <button class="arrow-next">Далее</button>
+                </div>
+            </section>
+            <section class="certificates" id="certificates">
+                <div class="container">
+                    <div class="certificates-title title">
+                        Дипломы, сертификаты и благодарственные письма
+                    </div>
+                    <div class="certificates__sliders">
+                        <div class="certificates__slider">
+                            <div class="certificates__slider-main">
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate1.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate2.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate3.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate4.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate1.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate2.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate3.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate4.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="certificates__slider-tape">
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate1.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate2.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate3.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate4.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate1.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate2.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate3.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate4.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certificates__slider">
+                            <div class="certificates__slider-main">
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate1.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate2.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate3.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate4.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate1.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate2.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate3.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-main--item">
+                                    <img src="./img/certificate4.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="certificates__slider-tape">
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate1.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate2.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate3.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate4.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate1.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate2.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate3.jpg" alt="" />
+                                </div>
+                                <div class="certificates__slider-tape--item">
+                                    <img src="./img/certificate4.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certificates__thanks">
+                        <div class="certificates__thanks-img">
+                            <img src="./img/Dr_Brune.jpg" alt="" />
+                        </div>
+                        <div class="certificates__thanks-text">
+                            <div class="certificates__thanks-quote">
+                                <p class="certificates__thanks-quote--text">
+                                    Позвольте выразить Вам глубокую признательность за помощь в
+                                    оказание содействия в организации профилактической деятельности.
+                                </p>
+                                <br />
+                                <p class="certificates__thanks-quote--text">
+                                    С готовностью и надеждой на дальнейшее плодотворное
+                                    сотрудничество в области противодействия распространению
+                                    наркологических заболеваний и реализации инициатив, направленных
+                                    на пропаганду здорового образа жизни среди населения РФ.
+                                </p>
+                            </div>
+                            <div class="certificates__thanks-footer">
+                                <div class="certificates__thanks-about">
+                                    <div class="certificates__thanks-name">Брюн Е.А.</div>
+                                    <p class="certificates__thanks-footer--text">
+                                        Главный специалист-нарколог Минздрава Росии.
+                                    </p>
+                                    <br />
+                                    <p class="certificates__thanks-footer--text">
+                                        Заместитель председателя Совета по проблемам профилактики
+                                        наркомании Совета Федерации РФ.
+                                    </p>
+                                </div>
+                                <div class="certificates__thanks-footer--imgs">
+                                    <img src="./img/certificate1.jpg" alt="" />
+                                    <img src="./img/certificate2.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="specialists">
+                <div class="container">
+                    <div class="specialists-title title">Собрали команду лучших специалистов</div>
+                    <div class="specialists__slider">
+                        <div class="specialists__slider-column">
+                            <div class="specialists__slider-item">
+                                <div class="specialists__slider-item--img">
+                                    <img src="./img/consultation_doctor.jpg" alt="" />
+                                </div>
+                                <div class="specialists__slider-about">
+                                    <div class="specialists__slider-name">
+                                        Шинтяпин Владимир Сергеевич
+                                    </div>
+                                    <div class="specialists__slider-prof">
+                                        Врач-психиатр, нарколог
+                                    </div>
+                                    <p class="specialists__slider-text">
+                                        Ведущий программы реабилитации “12 шагов”
+                                    </p>
+                                    <p class="specialists__slider-text">Стаж 15 лет.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="specialists__slider-column">
+                            <div class="specialists__slider-item">
+                                <div class="specialists__slider-item--img">
+                                    <img src="./img/consultation_doctor.jpg" alt="" />
+                                </div>
+                                <div class="specialists__slider-about">
+                                    <div class="specialists__slider-name">
+                                        Шинтяпин Владимир Сергеевич
+                                    </div>
+                                    <div class="specialists__slider-prof">
+                                        Врач-психиатр, нарколог
+                                    </div>
+                                    <p class="specialists__slider-text">
+                                        Ведущий программы реабилитации “12 шагов”
+                                    </p>
+                                    <p class="specialists__slider-text">Стаж 15 лет.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="specialists__slider-column">
+                            <div class="specialists__slider-item">
+                                <div class="specialists__slider-item--img">
+                                    <img src="./img/consultation_doctor.jpg" alt="" />
+                                </div>
+                                <div class="specialists__slider-about">
+                                    <div class="specialists__slider-name">
+                                        Шинтяпин Владимир Сергеевич
+                                    </div>
+                                    <div class="specialists__slider-prof">
+                                        Врач-психиатр, нарколог
+                                    </div>
+                                    <p class="specialists__slider-text">
+                                        Ведущий программы реабилитации “12 шагов”
+                                    </p>
+                                    <p class="specialists__slider-text">Стаж 15 лет.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="specialists__slider-column">
+                            <div class="specialists__slider-item">
+                                <div class="specialists__slider-item--img">
+                                    <img src="./img/consultation_doctor.jpg" alt="" />
+                                </div>
+                                <div class="specialists__slider-about">
+                                    <div class="specialists__slider-name">
+                                        Шинтяпин Владимир Сергеевич
+                                    </div>
+                                    <div class="specialists__slider-prof">
+                                        Врач-психиатр, нарколог
+                                    </div>
+                                    <p class="specialists__slider-text">
+                                        Ведущий программы реабилитации “12 шагов”
+                                    </p>
+                                    <p class="specialists__slider-text">Стаж 15 лет.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="specialists__slider-column">
+                            <div class="specialists__slider-item">
+                                <div class="specialists__slider-item--img">
+                                    <img src="./img/consultation_doctor.jpg" alt="" />
+                                </div>
+                                <div class="specialists__slider-about">
+                                    <div class="specialists__slider-name">
+                                        Шинтяпин Владимир Сергеевич
+                                    </div>
+                                    <div class="specialists__slider-prof">
+                                        Врач-психиатр, нарколог
+                                    </div>
+                                    <p class="specialists__slider-text">
+                                        Ведущий программы реабилитации “12 шагов”
+                                    </p>
+                                    <p class="specialists__slider-text">Стаж 15 лет.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="specialists__slider-column">
+                            <div class="specialists__slider-item">
+                                <div class="specialists__slider-item--img">
+                                    <img src="./img/consultation_doctor.jpg" alt="" />
+                                </div>
+                                <div class="specialists__slider-about">
+                                    <div class="specialists__slider-name">
+                                        Шинтяпин Владимир Сергеевич
+                                    </div>
+                                    <div class="specialists__slider-prof">
+                                        Врач-психиатр, нарколог
+                                    </div>
+                                    <p class="specialists__slider-text">
+                                        Ведущий программы реабилитации “12 шагов”
+                                    </p>
+                                    <p class="specialists__slider-text">Стаж 15 лет.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="answers">
+                <div class="container">
+                    <div class="answers-title title">Ответы на часто задаваемые вопросы</div>
+                    <div class="answers__main">
+                        <div class="answers__column-spoilers">
+                            <div class="answers__spoilers">
+                                <div class="answers__spoiler">
+                                    <div class="answers__spoiler-title">
+                                        Что делать, если близкий не хочет лечиться?
+                                    </div>
+                                    <div class="answers__spoiler-dropdown">
+                                        Большая часть зависимых не признают себя больными. Убедить
+                                        человека – задача сложная, но мы можем помочь. Для подобных
+                                        случаев у нас есть специалисты – интервенты. С помощью
+                                        специальных приемов психологи постараются убедить вашего
+                                        близкого в необходимости лечения. В 99% случаев зависимые
+                                        добровольно соглашаются принять помощь. Услуга интервенции
+                                        доступна на дому.
+                                    </div>
+                                </div>
+                                <div class="answers__spoiler">
+                                    <div class="answers__spoiler-title">
+                                        Сколько обычно длится полный курс лечения?
+                                    </div>
+                                    <div class="answers__spoiler-dropdown">
+                                        Большая часть зависимых не признают себя больными. Убедить
+                                        человека – задача сложная, но мы можем помочь. Для подобных
+                                        случаев у нас есть специалисты – интервенты. С помощью
+                                        специальных приемов психологи постараются убедить вашего
+                                        близкого в необходимости лечения. В 99% случаев зависимые
+                                        добровольно соглашаются принять помощь. Услуга интервенции
+                                        доступна на дому.
+                                    </div>
+                                </div>
+                                <div class="answers__spoiler">
+                                    <div class="answers__spoiler-title">
+                                        Почему лечение занимает столько времени?
+                                    </div>
+                                    <div class="answers__spoiler-dropdown">
+                                        Большая часть зависимых не признают себя больными. Убедить
+                                        человека – задача сложная, но мы можем помочь. Для подобных
+                                        случаев у нас есть специалисты – интервенты. С помощью
+                                        специальных приемов психологи постараются убедить вашего
+                                        близкого в необходимости лечения. В 99% случаев зависимые
+                                        добровольно соглашаются принять помощь. Услуга интервенции
+                                        доступна на дому.
+                                    </div>
+                                </div>
+                                <div class="answers__spoiler">
+                                    <div class="answers__spoiler-title">Даёте ли вы гарантии?</div>
+                                    <div class="answers__spoiler-dropdown">
+                                        Большая часть зависимых не признают себя больными. Убедить
+                                        человека – задача сложная, но мы можем помочь. Для подобных
+                                        случаев у нас есть специалисты – интервенты. С помощью
+                                        специальных приемов психологи постараются убедить вашего
+                                        близкого в необходимости лечения. В 99% случаев зависимые
+                                        добровольно соглашаются принять помощь. Услуга интервенции
+                                        доступна на дому.
+                                    </div>
+                                </div>
+                                <div class="answers__spoiler">
+                                    <div class="answers__spoiler-title">
+                                        В чём заключается программа лечения?
+                                    </div>
+                                    <div class="answers__spoiler-dropdown">
+                                        Большая часть зависимых не признают себя больными. Убедить
+                                        человека – задача сложная, но мы можем помочь. Для подобных
+                                        случаев у нас есть специалисты – интервенты. С помощью
+                                        специальных приемов психологи постараются убедить вашего
+                                        близкого в необходимости лечения. В 99% случаев зависимые
+                                        добровольно соглашаются принять помощь. Услуга интервенции
+                                        доступна на дому.
+                                    </div>
+                                </div>
+                                <div class="answers__spoiler">
+                                    <div class="answers__spoiler-title">
+                                        Возможно ли навещать близкого в центре?
+                                    </div>
+                                    <div class="answers__spoiler-dropdown">
+                                        Большая часть зависимых не признают себя больными. Убедить
+                                        человека – задача сложная, но мы можем помочь. Для подобных
+                                        случаев у нас есть специалисты – интервенты. С помощью
+                                        специальных приемов психологи постараются убедить вашего
+                                        близкого в необходимости лечения. В 99% случаев зависимые
+                                        добровольно соглашаются принять помощь. Услуга интервенции
+                                        доступна на дому.
+                                    </div>
+                                </div>
+                                <div class="answers__spoiler">
+                                    <div class="answers__spoiler-title">
+                                        Я боюсь, что зависимый убежит из реабилитационного центра.
+                                    </div>
+                                    <div class="answers__spoiler-dropdown">
+                                        Большая часть зависимых не признают себя больными. Убедить
+                                        человека – задача сложная, но мы можем помочь. Для подобных
+                                        случаев у нас есть специалисты – интервенты. С помощью
+                                        специальных приемов психологи постараются убедить вашего
+                                        близкого в необходимости лечения. В 99% случаев зависимые
+                                        добровольно соглашаются принять помощь. Услуга интервенции
+                                        доступна на дому.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="answers__column-get-consultation">
+                            <div class="answers__consulation get-consultation">
+                                <div class="consultation__block">
+                                    <div class="consultation__block-content">
+                                        <div class="consultation__block-title">
+                                            Ответим на любой вопрос о нашей деятельности
+                                        </div>
+                                        <div class="consultation__block-desc">
+                                            Задайте их нашим специлистам — это бесплатно и анонимно
+                                        </div>
+                                        <p class="consultation__block-text">
+                                            Получите бесплатную консультацию
+                                        </p>
+                                        <div class="b-answers-def-btn">
+                                            <button class="def-btn">Получить консультацию</button>
+                                        </div>
+                                        <div class="answers__lm">
+                                            <button class="answers__lm-def-btn def-btn">
+                                                Получить консультацию
+                                            </button>
+                                            <div class="answers__lm-call">
+                                                <p class="answers__lm-text">
+                                                    Либо свяжитесь с нами
+                                                </p>
+                                                <div class="answers__lm-number">
+                                                    8 (800) 200-99-32
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts" id="contacts">
+                <iframe
+                    class="contacts__map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.372949944227!2d37.615310715900854!3d55.75202328055317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a50b315e573%3A0xa886bf5a3d9b2e68!2z0JzQvtGB0LrQvtCy0YHQutC40Lkg0JrRgNC10LzQu9GM!5e0!3m2!1sru!2sru!4v1618853426078!5m2!1sru!2sru"
+                    width="100%"
+                    height="100%"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                ></iframe>
+                <div class="contacts__container container">
+                    <div class="contacts__form">
+                        <div class="contacts__form-title title">Наши контакты</div>
+                        <p class="contacts__form-note">45 городов РФ, а также Тайланд, Израиль</p>
+                        <div class="contacts__city-wrapper">
+                            <div class="contacts-city__block city__block">
+                                <div class="contacts-city__block-desc city__block-desc">
+                                    Ваш город:
+                                </div>
+                                <div class="contacts-city__block-select city__block-select">
+                                    <select name="" id="" aria-placeholder="Выберите ваш город">
+                                        <option value="">г. Нижний Новгород</option>
+                                        <option value="">г. Казань</option>
+                                        <option value="">г. Пермь</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contacts__form-items">
+                            <div class="contacts__form-item">
+                                <div class="contacts__form-item--name">Адрес офиса:</div>
+                                <div class="contacts__form-item--info">
+                                    г. Москва 6-я радиальная 7к1
+                                </div>
+                            </div>
+                            <div class="contacts__form-item">
+                                <div class="contacts__form-item--name">Адрес клиники:</div>
+                                <div class="contacts__form-item--info">
+                                    г. Москва 6-я радиальная 7к1
+                                </div>
+                            </div>
+                            <div class="contacts__form-item">
+                                <div class="contacts__form-item--name">Телефон:</div>
+                                <div class="contacts__form-item--info">8 (800) 200-99-32</div>
+                            </div>
+                            <div class="contacts__form-item">
+                                <div class="contacts__form-item--name">Пишите нам:</div>
+                                <div class="contacts__form-item--info">fondnan@yandex.ru</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__container container">
+                    <div class="footer__top">
+                        <div class="footer-logo__block logo__block">
+                            <div class="footer-logo__block-img logo__block-img">
+                                <img src="./img/footer_logo.svg" alt="" />
+                            </div>
+                            <div class="footer-logo__block-title logo__block-title">
+                                Всероссийский фонд помощи <br />алко- и наркозависимым
+                            </div>
+                        </div>
+                        <div class="footer__top-right">
+                            <button class="footer-def-btn def-btn">Получить консультацию</button>
+
+                            <div class="footer-phone__block phone__block">
+                                <div class="footer-phone__block-number phone__block-number">
+                                    8 (800) 200-99-32
+                                </div>
+                                <div class="footer-phone__block-desc phone__block-desc">
+                                    Бесплатный звонок по РФ
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer__text">
+                        Сайт https://nan-rc.ru не поддерживает продажу, распространение, прием
+                        психоактивных веществ. Статья 6.13 КоАП РФ. Публикации имеют информационный
+                        характер, представлены только для ознакомления. Не должны восприниматься как
+                        медицинские рекомендации. Ставить диагноз, подбирать тактику, длительность
+                        терапии должен лечащий врач индивидуально в каждом случае. Сайт не несет
+                        ответственности за возможные последствия, которые могут возникнуть из-за
+                        самостоятельного использования размещенной информации.
+                    </div>
+                    <div class="footer__policy">
+                        <p class="footer__policy-item">© 2021 Фонд НАН</p>
+                        <p class="footer__policy-item">Политика конфиденциальности</p>
+                        <p class="footer__policy-item">
+                            Разработка сайта: <span>Alexiku$-site</span>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
